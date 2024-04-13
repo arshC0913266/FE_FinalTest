@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Final test lab</title>
+	<style>
+		#tableContainer {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<font size="8" color="green">Final test lab</font><br><br>
+	Number of rows: <input type="number" id="t1" /><br><br>
+	Number of cols: <input type="number" id="t2" /><br><br>
+
+	<button id="b1">Generate Table</button><br><br>
+
+	<button id="b2">Add Column</button>
+
+	<button id="b3">Add Row</button>
+
+	<div id="tableContainer"></div>
+
+	<script src="./javascript.js"></script>
+</body>
+
+</html>
